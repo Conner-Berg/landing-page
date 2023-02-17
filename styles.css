@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap");
 
 body {
 	font-family: "Roboto", sans-serif;
@@ -14,7 +14,7 @@ body {
 	height: 28vh;
 }
 
-.nav-bar {
+.header-nav-bar {
 	display: flex;
 	margin-top: 15px;
 	margin-bottom: auto;
@@ -38,7 +38,7 @@ body {
 	color: #f9faf8;
 }
 
-.site-info {
+.header-main {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -54,51 +54,79 @@ body {
 }
 
 .header-main-text-title {
-	font-size: 26px;
+	font-size: 28px;
 	color: #f9faf8;
 	font-weight: bolder;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 }
 
 .header-main-text-description {
 	color: #e5e7eb;
 	margin-bottom: 10px;
+	line-height: normal;
 }
 
-.sign-up {
+.header-sign-up {
 	width: 80px;
 	background-color: #3882f6;
 	color: #e5e7eb;
 	border: none;
 	border-radius: 4px;
 	padding: 5px;
+	font-weight: bold;
 }
 
-.image-header {
+.header-image {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	color: #e5e7eb;
-	background-color: #7a7c83;
+	background-color: #6d747d;
 	width: 50%;
 	height: 125px;
 }
 
 .center {
-}
-
-.top-center {
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
 	align-items: center;
 	height: 26vh;
 }
 
-.image-center {
-	border: 1px solid #3882f6;
-	margin: 10px;
+.center-title {
+	margin-top: 20px;
+	margin-bottom: 15px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.center-image-group {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.center-image-plus-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.center-image {
+	border: 2px solid #3882f6;
+	border-radius: 8px;
+	margin: 4px 10px;
 	width: 80px;
 	height: 80px;
+}
+
+.center-image-text {
+	width: 75px;
+	font-size: 8px;
+	text-align: center;
+	font-weight: 300;
+	line-height: normal;
 }
 
 .quote {
@@ -115,6 +143,7 @@ body {
 
 .call-to-action {
 	background-color: #3882f6;
+	border-radius: 5px;
 	width: 70%;
 	height: 40%;
 }
@@ -123,31 +152,3 @@ body {
 	background-color: #1f2937;
 	height: 5vh;
 }
-
-/* <!-- HTML !-->
-<button class="button-10" role="button">Button 10</button>
-
-CSS
-.button-10 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 6px 14px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
-  border-radius: 6px;
-  border: none;
-
-  color: #fff;
-  background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
-   background-origin: border-box;
-  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
-.button-10:focus {
-  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
-  outline: 0;
-}
- */
